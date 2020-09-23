@@ -1,0 +1,55 @@
+h1 {
+	font-size: 56px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgba(63, 63, 63, 1);
+}
+
+h3 {
+	font-size: 28px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+	font-size: 24px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.bg-header {
+	background-image: url('../img/blockchain_background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -3;
+	height: 80vh;
+	width: 100vw;
+}
+
+.bg-header--overlay {
+	position: absolute;
+	top: 78px;
+	left: 0;
+	height: 80vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-header--container {
+	bottom: 40vh;
+	right: 10vw;
+	text-align: right;
+	position: absolute;
+	color: white;
+	width: 55vw;
+}
+
+.container--height-fixed {
+	position: relative;
+	bottom: 0;
+	background-color: yellow;
+}
